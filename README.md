@@ -1,2 +1,2 @@
-# University Of Texasa At San Antonio
+# University Of Texas At San Antonio
 Projects done college
