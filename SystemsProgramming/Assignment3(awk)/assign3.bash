@@ -1,3 +1,4 @@
 #!/bin/bash
-awk -f assign3.awk $1
-  
+awk -f assign3.awk $1    
+
+
