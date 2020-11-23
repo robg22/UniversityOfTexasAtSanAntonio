@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxWidth="800.0" minHeight="700.0" prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="75.0" layoutX="-4.0" layoutY="-14.0" stroke="BLACK" strokeType="INSIDE" width="804.0" />
+      <ImageView fitHeight="659.0" fitWidth="969.0" layoutX="-164.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/Dinosaur%20Forest%20Mountain%20Photography%20Backdrops.jpeg" />
+         </image>
+      </ImageView>
+      <Button fx:id="B" layoutX="28.0" layoutY="392.0" mnemonicParsing="false" onAction="#Bclicked" prefHeight="100.0" prefWidth="153.0" text="B" textFill="WHITE">
+         <font>
+            <Font size="49.0" />
+         </font></Button>
+      <Button fx:id="D" layoutX="229.0" layoutY="391.0" mnemonicParsing="false" onAction="#Bclicked" prefHeight="100.0" prefWidth="153.0" text="D" textFill="WHITE">
+         <font>
+            <Font size="49.0" />
+         </font>
+      </Button>
+      <Button fx:id="G" layoutX="421.0" layoutY="392.0" mnemonicParsing="false" onAction="#Bclicked" prefHeight="100.0" prefWidth="153.0" text="G" textFill="WHITE">
+         <font>
+            <Font size="49.0" />
+         </font>
+      </Button>
+      <Button fx:id="R" layoutX="614.0" layoutY="392.0" mnemonicParsing="false" onAction="#Bclicked" prefHeight="100.0" prefWidth="153.0" text="R" textFill="WHITE">
+         <font>
+            <Font size="49.0" />
+         </font>
+      </Button>
+      <Button fx:id="Ty" layoutX="324.0" layoutY="517.0" mnemonicParsing="false" onAction="#Bclicked" prefHeight="100.0" prefWidth="153.0" text="TY" textFill="WHITE">
+         <font>
+            <Font size="49.0" />
+         </font>
+      </Button>
+      <Button fx:id="X" layoutX="517.0" layoutY="518.0" mnemonicParsing="false" onAction="#Bclicked" prefHeight="100.0" prefWidth="153.0" text="X" textFill="WHITE">
+         <font>
+            <Font size="49.0" />
+         </font>
+      </Button>
+      <Button fx:id="TR" layoutX="131.0" layoutY="517.0" mnemonicParsing="false" onAction="#Bclicked" prefHeight="100.0" prefWidth="153.0" text="TR" textFill="WHITE">
+         <font>
+            <Font size="49.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="321.0" fitWidth="491.0" layoutX="159.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Classic%20Jurassic%20Park%20Symbol%20(White%20Background).png" />
+         </image>
+      </ImageView>
+      <Label layoutX="258.0" layoutY="331.0" text="Select A Zone to continue">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
